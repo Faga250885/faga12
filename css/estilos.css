@@ -550,3 +550,12 @@ nav .nav1:hover{
     transition: 500ms;
     scale: 1.04;
 }
+
+.logoprincipalhome{
+    scale: 1;
+}
+
+.logoprincipalhome:hover{
+    transition: 500ms;
+    scale: 1.05;
+}
