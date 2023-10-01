@@ -59,6 +59,7 @@ nav .nav1:hover{
 
 
 
+
 .nav-link:focus {
     color: rgb(255, 255, 255);
 }
@@ -96,6 +97,18 @@ nav .nav1:hover{
     list-style: none;
     column-gap: 20px;
     row-gap: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: baseline;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    font-size: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    align-items: left;
 }
 
 .bannerprincipal{
@@ -555,19 +568,8 @@ nav .nav1:hover{
     scale: 1;
 }
 
-@media screen and (max-width: 992px) {
-    .logoprincipalhome {
-        scale: 0.7;
-    }
-}
-
 .logoprincipalhome:hover{
     transition: 500ms;
     scale: 1.05;
-}
-
-@media screen and (max-width: 992px) {
-    .logoprincipalhome:hover {
-        scale: 0.75;
-    }
+    padding: 0;
 }
