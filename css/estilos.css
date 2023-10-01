@@ -555,7 +555,19 @@ nav .nav1:hover{
     scale: 1;
 }
 
+@media screen and (max-width: 992px) {
+    .logoprincipalhome {
+        scale: 0.7;
+    }
+}
+
 .logoprincipalhome:hover{
     transition: 500ms;
     scale: 1.05;
+}
+
+@media screen and (max-width: 992px) {
+    .logoprincipalhome:hover {
+        scale: 0.75;
+    }
 }
