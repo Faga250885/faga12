@@ -573,3 +573,9 @@ nav .nav1:hover{
     scale: 1.05;
     padding: 0;
 }
+
+@media screen and (max-width: 992px) {
+    .logoprincipalhome:hover {
+        scale: 1;
+    }
+}
