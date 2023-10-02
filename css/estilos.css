@@ -237,7 +237,7 @@ nav .nav1:hover{
     .imagengrande {
         width: 100%;
         border-radius: 10px;
-        height: 100%;
+        height: 300px;
         object-fit: cover;
         margin-bottom: 20px;
     }
@@ -250,6 +250,16 @@ nav .nav1:hover{
     object-fit: cover;
     margin-bottom: 20px;
     margin-top: -25px;
+}
+
+@media screen and (max-width: 992px) {
+    .imagengrande2 {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
 }
 
 
