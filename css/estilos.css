@@ -522,16 +522,15 @@ nav .nav1:hover{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
+    margin-bottom: -20px;
 }
 
-.tituloservicios{
     @media screen and (max-width: 992px) {
         .tituloservicios {
             text-align: left;
         }
     }
     
-}
 
 .serviciosinvertidos {
     display: flex;
