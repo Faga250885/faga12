@@ -365,6 +365,14 @@ nav .nav1:hover{
 
 .cuadrotexto{
     padding-top: 50px;
+    margin-top: 25px;
+    background-color: #e8e8e8;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.cuadrotextoacercademi{
+    padding-top: 50px;
 }
 
 .textofinal{
@@ -516,6 +524,12 @@ nav .nav1:hover{
 .seccionservicios2{
     padding-top: 50px;
 }
+
+.seccionservicios3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
 
 .tituloservicios{
     padding-top: 50px;
