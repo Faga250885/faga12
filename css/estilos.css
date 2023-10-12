@@ -26,7 +26,7 @@ body{
 
 .botoncontratame{
     transition: 250ms;
-    padding: 7px 30px 7px 30px;
+    padding: 7px 15px 7px 15px;
     font-weight: 400;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0);
@@ -41,7 +41,7 @@ body{
 .botoncontratame:hover{
     transform: scale(1.2);
     transition: 250ms;
-    padding: 7px 30px 7px 30px;
+    padding: 7px 15px 7px 15px;
     font-weight: 400;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -435,6 +435,7 @@ p {
 }
 
 .contenedorgaleria{
+    cursor: cell;
     transition: 250ms;
     transform: scale(1);
 }
@@ -451,9 +452,8 @@ p {
     transform:  scale(2);
 }
 
-
-
 .contenedorgalerial{
+    cursor: cell;
     transition: 250ms;
     transform: scale(1);
 }
@@ -481,6 +481,7 @@ p {
 
 
 .contenedorgaleriar{
+    cursor: cell;
     transition: 250ms;
     transform: scale(1);
 }
