@@ -185,9 +185,10 @@ nav .nav1:hover{
 }
 
 .sectionimagentexto{
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
+
 
 .imagen50{
     border-radius: 20px;
@@ -237,6 +238,7 @@ nav .nav1:hover{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
+    padding-top: 25px;
 } 
 
 @media screen and (max-width: 992px) {
@@ -249,12 +251,26 @@ nav .nav1:hover{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 } 
 
 @media screen and (max-width: 992px) {
     .titulo100m {
+        text-align: left;
+    }
+}
+
+.titulo100c {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+} 
+
+@media screen and (max-width: 992px) {
+    .titulo100c {
         text-align: left;
     }
 }
