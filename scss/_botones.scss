@@ -1,0 +1,43 @@
+.boton {
+    transition: 250ms;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $color-transparente;
+    color: $color-primario;
+    width: auto;
+    align-items: center;
+    height: 48px;
+    border: solid 1px;
+    border-radius: 8px;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: 250ms;
+        background-color: $color-primario;
+        color: $color-claroytexto;
+        width: auto;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    @media screen and (max-width: 992px) {
+        & {
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 992px) {
+            &:hover {
+                transition: 500ms;
+                background-color: $color-primario;
+                color: $color-claroytexto;
+                width: 100%;
+                height: 48px;
+                border-radius: 8px;
+                border: none;
+            }
+        }
+    }
+}

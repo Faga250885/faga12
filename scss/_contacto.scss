@@ -1,0 +1,56 @@
+.fondocontacto{
+    background: linear-gradient(180deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 100%);
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+    .sectioniconoscontacto{
+        margin-bottom: 25px;
+    }
+    
+    .formfield {
+        padding-left: 20px;
+        width: 100%;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .formlist2{
+        gap: 10px;
+    }
+
+    .formtext{
+        padding-top: 12px;
+        padding-left: 20px;
+        height: 160px;
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .formbutton {
+        transition: 250ms;
+        background-color: $color-transparente;
+        color: $color-primario;
+        width: 100%;
+        height: 48px;
+        border: solid 1px;
+        border-radius: 8px;
+        margin-top: -5px;
+
+        &:hover {
+            transform: scale(1.02);
+            transition: 250ms;
+            background-color: $color-primario;
+            color: $color-claroytexto;
+            width: 100%;
+            height: 48px;
+            border-radius: 8px;
+            border: none;
+        }
+    }
+    
+
+    
+    
+}

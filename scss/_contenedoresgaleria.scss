@@ -1,0 +1,65 @@
+.contenedorgaleria{
+    cursor: cell;
+    transition: 250ms;
+    transform: scale(1);
+
+    &:hover{
+        z-index: 1;
+        transition: 250ms;
+        transform: scale(1.1);
+    }
+
+    &:active{
+        z-index: 1;
+        transform:  scale(2);
+    }
+}
+
+.contenedorgalerial{
+    cursor: cell;
+    transition: 250ms;
+    transform: scale(1);
+
+    &:hover{
+        z-index: 1;
+        transition: 250ms;
+        transform: scale(1.1);
+    }
+
+    &:active{
+        z-index: 1;
+        transform:  scale(2);
+    }
+
+    @media screen and (max-width: 992px) {
+        &:active{
+            z-index: 1;
+            transform: translate(45%) scale(2);
+        }
+    }
+}
+
+.contenedorgaleriar{
+    cursor: cell;
+    transition: 250ms;
+    transform: scale(1);
+
+    &:hover{
+        z-index: 1;
+        transition: 250ms;
+        transform: scale(1.1);
+    }
+
+    &:active{
+        z-index: 1;
+        transform:  scale(2);
+    }
+
+    @media screen and (max-width: 992px) {
+        &:active{
+            z-index: 1;
+            transform: translate(-45%) scale(2);
+        }
+    }
+    
+}

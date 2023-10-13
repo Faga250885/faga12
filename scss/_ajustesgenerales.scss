@@ -1,0 +1,28 @@
+body{
+    font-family: 'Pgaleriagaleriaoppins', sans-serif;
+    background-color: $color-fondobody;
+    p{
+        margin-bottom: 0;
+    }
+}
+
+.seccionesservicios{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .serviciosinvertidos {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.linktrabajos{
+    scale: 1.0;
+    &:hover{
+        z-index: 1;
+        transition: 250ms;
+        scale: 1.1;
+    }
+}

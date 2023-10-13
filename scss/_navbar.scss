@@ -1,0 +1,66 @@
+.fondonavbar{
+    background-color: black;
+    .logoprincipalhome{
+        scale: 1;
+        transition: 250ms;
+    }
+    .logoprincipalhome:hover{
+        transition: 250ms;
+        scale: 1.1;
+        padding: 0;
+    }
+    @media screen and (max-width: 992px) {
+        .logoprincipalhome:hover {
+            scale: 1;
+        }
+    }
+    .botoncontratame{
+        transition: 250ms;
+        padding: 7px 15px 7px 15px;
+        font-weight: 400;
+        color: $color-claroytexto;
+        background-color: $color-primario;
+        border-color: $color-claroytexto;
+        border-width: 1px;
+        border-radius: 10px;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        border: solid 1px;
+    }
+    .botoncontratame:hover{
+        transform: scale(1.03);
+        transition: 250ms;
+        padding: 7px 15px 7px 15px;
+        font-weight: 400;
+        color: $color-primario;
+        background-color: $color-claroytexto;
+    }
+    
+}
+
+
+nav .nav1{
+    transition: 250ms;
+    color: $color-claroytexto;
+    font-weight: 400;
+    background: $color-transparente;
+    border-radius: 10px;
+    &:hover{
+        transition: 250ms;
+        color: $color-claroytexto;
+        font-weight: 400;
+        background: $color-hovernavbar;
+        border-radius: 10px;
+    }
+}
+.navbar-nav .nav-link  {
+    padding-right: 120px;
+    padding-left: 10px;
+}
+.navbar-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+

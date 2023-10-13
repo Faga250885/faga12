@@ -1,0 +1,75 @@
+.sectioncards{
+    margin-top: -50px;
+}
+
+.card {
+    transition: 250ms;
+    height: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+
+    .titulocard {
+        font-weight: 700;
+        font-size: $titulo-card;
+        @media screen and (max-width: 992px) {
+            &{
+                font-size: $titulo-cardm;
+                }
+            }
+    }
+
+    .textocard {
+        font-size: $texto-general;
+        @media screen and (max-width: 992px) {
+            & {
+                font-size: $texto-cardm;
+            }
+        }
+    }
+    
+
+    
+    .imagencard{
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        @media screen and (max-width: 992px) {
+            & {
+                border-radius: 5px;
+                height: 140px;
+            }
+        }
+    }
+    
+
+    &:hover {
+        transition: 250ms;
+        transform: translateY(-20px);
+        height: 100%;
+        border: none;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    @media screen and (max-width: 992px) {
+        & {
+            height: 100%;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        @media screen and (max-width: 992px) {
+        &:hover {
+            transition: 250ms;
+            transform: translateY(0px);
+            height: 100%;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+    }
+    
+}

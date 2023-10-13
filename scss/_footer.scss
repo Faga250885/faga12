@@ -1,0 +1,14 @@
+.footer{
+    margin: 0;
+    padding: 0;
+    
+    .iconosredes{
+        transition: 500ms;
+        padding: 5px;
+
+        &:hover{
+            transition: 500ms;
+            scale: 1.2;
+        }
+    }
+}
