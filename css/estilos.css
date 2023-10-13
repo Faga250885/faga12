@@ -39,7 +39,7 @@ body{
 }
 
 .botoncontratame:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: 250ms;
     padding: 7px 15px 7px 15px;
     font-weight: 400;
@@ -138,6 +138,17 @@ nav .nav1:hover{
 
 @media screen and (max-width: 992px) {
     .card {
+        height: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card:hover {
+        transition: 250ms;
+        transform: translateY(0px);
         height: 100%;
         border: none;
         padding: 10px;
@@ -340,7 +351,7 @@ nav .nav1:hover{
 }
 
 .formbutton:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: 250ms;
     background-color: black;
     color: white;
@@ -366,7 +377,7 @@ nav .nav1:hover{
 }
 
 .boton:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 250ms;
     background-color: black;
     color: white;
@@ -458,7 +469,6 @@ p {
 
 .contenedorgaleria:active{
     z-index: 1;
-    position: relative;
     transform:  scale(2);
 }
 
@@ -476,14 +486,12 @@ p {
 
 .contenedorgalerial:active{
     z-index: 1;
-    position: relative;
     transform:  scale(2);
 }
 
 @media screen and (max-width: 992px) {
     .contenedorgalerial:active{
         z-index: 1;
-        position: relative;
         transform: translate(45%) scale(2);
     }
 }
@@ -504,14 +512,12 @@ p {
 
 .contenedorgaleriar:active{
     z-index: 1;
-    position: relative;
     transform:  scale(2);
 }
 
 @media screen and (max-width: 992px) {
     .contenedorgaleriar:active{
         z-index: 1;
-        position: relative;
         transform: translate(-45%) scale(2);
     }
 }
