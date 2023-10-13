@@ -1,5 +1,5 @@
 .fondonavbar{
-    background-color: black;
+    background-color: $color-primario ;
     .logoprincipalhome{
         scale: 1;
         transition: 250ms;
@@ -19,7 +19,7 @@
         padding: 7px 15px 7px 15px;
         font-weight: 400;
         color: $color-claroytexto;
-        background-color: $color-primario;
+        background-color: $color-transparente;
         border-color: $color-claroytexto;
         border-width: 1px;
         border-radius: 10px;
@@ -64,3 +64,32 @@ nav .nav1{
     row-gap: 10px;
 }
 
+button:focus:not(:focus-visible) {
+    outline: 30px;
+}
+
+
+.navbar-toggler {
+    transition: 250ms;
+    padding: 4px;
+    background-image: url(../assets/menu1.svg);
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+
+}
+
+.navbar-toggler:hover {
+    transition: 250ms;
+    padding: 4px;
+    background-image: url(../assets/menu1.svg);
+    background-size: cover;
+    background-color: $color-hovernavbar;
+    width: 46px;
+    height: 46px;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}

@@ -1,5 +1,5 @@
 .fondonavbar {
-  background-color: black;
+  background-color: #121213;
 }
 .fondonavbar .logoprincipalhome {
   scale: 1;
@@ -20,7 +20,7 @@
   padding: 7px 15px 7px 15px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #121213;
+  background-color: rgba(0, 0, 0, 0);
   border-color: #ffffff;
   border-width: 1px;
   border-radius: 10px;
@@ -63,6 +63,33 @@ nav .nav1:hover {
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 10px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 30px;
+}
+
+.navbar-toggler {
+  transition: 250ms;
+  padding: 4px;
+  background-image: url(../assets/menu1.svg);
+  background-size: cover;
+  width: 46px;
+  height: 46px;
+}
+
+.navbar-toggler:hover {
+  transition: 250ms;
+  padding: 4px;
+  background-image: url(../assets/menu1.svg);
+  background-size: cover;
+  background-color: #202022;
+  width: 46px;
+  height: 46px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
 }
 
 .bannerprincipal {
