@@ -276,13 +276,7 @@ nav .nav1:hover{
 }
 
 .texto100 {
-    text-align: center;;
-}
-
-@media screen and (max-width: 992px) {
-    .texto100 {
-        text-align: left;
-    }
+    text-align: left;;
 }
 
 @media screen and (max-width: 992px) {
