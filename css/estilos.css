@@ -1,15 +1,18 @@
 .fondonavbar {
   background-color: #121213;
 }
+
 .fondonavbar .logoprincipalhome {
   scale: 1;
   transition: 250ms;
 }
+
 .fondonavbar .logoprincipalhome:hover {
   transition: 250ms;
   scale: 1.1;
   padding: 0;
 }
+
 @media screen and (max-width: 992px) {
   .fondonavbar .logoprincipalhome:hover {
     scale: 1;
@@ -28,6 +31,7 @@
   width: 100%;
   border: solid 1px;
 }
+
 .fondonavbar .botoncontratame:hover {
   transform: scale(1.03);
   transition: 250ms;
@@ -44,6 +48,7 @@ nav .nav1 {
   background: rgba(0, 0, 0, 0);
   border-radius: 10px;
 }
+
 nav .nav1:hover {
   transition: 250ms;
   color: #ffffff;
@@ -60,6 +65,7 @@ nav .nav1:hover {
 .navbar-nav {
   padding-top: 15px;
   padding-bottom: 15px;
+  -moz-column-gap: 20px;
   column-gap: 20px;
   row-gap: 10px;
 }
@@ -100,19 +106,23 @@ button:focus:not(:focus-visible) {
   background-color: rgba(0, 0, 0, 0.665);
   background-blend-mode: soft-light;
 }
+
 .bannerprincipal .contenedortextobanner {
   color: #ffffff;
   text-align: center;
   padding-bottom: 40px;
 }
+
 .bannerprincipal .titulobanner {
   font-size: 40px;
 }
+
 .bannerprincipal .textobanner {
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
 }
+
 @media screen and (max-width: 992px) {
   .bannerprincipal {
     background-image: url(../assets/bannerp.jpg);
@@ -124,7 +134,6 @@ button:focus:not(:focus-visible) {
     background-blend-mode: soft-light;
   }
 }
-
 .sectioncards {
   margin-top: -50px;
 }
@@ -136,10 +145,12 @@ button:focus:not(:focus-visible) {
   padding: 20px;
   border-radius: 20px;
 }
+
 .card .titulocard {
   font-weight: 700;
   font-size: 25px;
 }
+
 @media screen and (max-width: 992px) {
   .card .titulocard {
     font-size: 18px;
@@ -148,6 +159,7 @@ button:focus:not(:focus-visible) {
 .card .textocard {
   font-size: 16px;
 }
+
 @media screen and (max-width: 992px) {
   .card .textocard {
     font-size: 14px;
@@ -156,9 +168,11 @@ button:focus:not(:focus-visible) {
 .card .imagencard {
   border-radius: 10px;
   height: 200px;
+  -o-object-fit: cover;
   object-fit: cover;
   margin-bottom: 20px;
 }
+
 @media screen and (max-width: 992px) {
   .card .imagencard {
     border-radius: 5px;
@@ -173,6 +187,7 @@ button:focus:not(:focus-visible) {
   padding: 20px;
   border-radius: 20px;
 }
+
 @media screen and (max-width: 992px) {
   .card {
     height: 100%;
@@ -191,7 +206,6 @@ button:focus:not(:focus-visible) {
     border-radius: 10px;
   }
 }
-
 .sectiontextos50 {
   height: auto;
 }
@@ -217,12 +231,12 @@ button:focus:not(:focus-visible) {
   font-size: 30px;
   padding-top: 25px;
 }
+
 @media screen and (max-width: 992px) {
   .titulo100 {
     text-align: left;
   }
 }
-
 .titulo100m {
   text-align: center;
   font-weight: 700;
@@ -230,12 +244,12 @@ button:focus:not(:focus-visible) {
   margin-top: 50px;
   margin-bottom: 25px;
 }
+
 @media screen and (max-width: 992px) {
   .titulo100m {
     text-align: left;
   }
 }
-
 .titulo100c {
   text-align: center;
   font-weight: 700;
@@ -243,12 +257,12 @@ button:focus:not(:focus-visible) {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
 @media screen and (max-width: 992px) {
   .titulo100c {
     text-align: left;
   }
 }
-
 .texto100 {
   text-align: left;
 }
@@ -257,18 +271,20 @@ button:focus:not(:focus-visible) {
   border-radius: 20px;
   width: 100%;
   height: 400px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
+
 @media screen and (max-width: 992px) {
   .imagen50 {
     border-radius: 20px;
     width: 100%;
     height: 300px;
+    -o-object-fit: cover;
     object-fit: cover;
     margin-bottom: 25px;
   }
 }
-
 .sectionimagentexto {
   margin-top: 50px;
   margin-bottom: 25px;
@@ -278,21 +294,23 @@ button:focus:not(:focus-visible) {
   border-radius: 20px;
   max-width: 100%;
 }
+
 @media screen and (max-width: 992px) {
   .imagen25 {
     text-align: left;
     border-radius: 10px;
   }
 }
-
 .fondocontacto {
   background: linear-gradient(180deg, rgb(231, 231, 231) 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
 .fondocontacto .sectioniconoscontacto {
   margin-bottom: 25px;
 }
+
 .fondocontacto .formfield {
   padding-left: 20px;
   width: 100%;
@@ -300,9 +318,11 @@ button:focus:not(:focus-visible) {
   border-radius: 8px;
   border: none;
 }
+
 .fondocontacto .formlist2 {
   gap: 10px;
 }
+
 .fondocontacto .formtext {
   padding-top: 12px;
   padding-left: 20px;
@@ -311,6 +331,7 @@ button:focus:not(:focus-visible) {
   border-radius: 8px;
   border: none;
 }
+
 .fondocontacto .formbutton {
   transition: 250ms;
   background-color: rgba(0, 0, 0, 0);
@@ -321,6 +342,7 @@ button:focus:not(:focus-visible) {
   border-radius: 8px;
   margin-top: -5px;
 }
+
 .fondocontacto .formbutton:hover {
   transform: scale(1.02);
   transition: 250ms;
@@ -346,6 +368,7 @@ button:focus:not(:focus-visible) {
   border: solid 1px;
   border-radius: 8px;
 }
+
 .boton:hover {
   transform: scale(1.05);
   transition: 250ms;
@@ -356,6 +379,7 @@ button:focus:not(:focus-visible) {
   border-radius: 8px;
   border: none;
 }
+
 @media screen and (max-width: 992px) {
   .boton {
     width: 100%;
@@ -372,15 +396,16 @@ button:focus:not(:focus-visible) {
     border: none;
   }
 }
-
 .footer {
   margin: 0;
   padding: 0;
 }
+
 .footer .iconosredes {
   transition: 500ms;
   padding: 5px;
 }
+
 .footer .iconosredes:hover {
   transition: 500ms;
   scale: 1.2;
@@ -390,6 +415,7 @@ body {
   font-family: "Pgaleriagaleriaoppins", sans-serif;
   background-color: #f3f3f3;
 }
+
 body p {
   margin-bottom: 0;
 }
@@ -408,10 +434,22 @@ body p {
 .linktrabajos {
   scale: 1;
 }
+
 .linktrabajos:hover {
   z-index: 1;
   transition: 250ms;
   scale: 1.1;
+}
+
+.foot1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.error {
+  margin-top: 150px;
+  mix-blend-mode: multiply;
 }
 
 .contenedorgaleria {
@@ -419,11 +457,13 @@ body p {
   transition: 250ms;
   transform: scale(1);
 }
+
 .contenedorgaleria:hover {
   z-index: 1;
   transition: 250ms;
   transform: scale(1.1);
 }
+
 .contenedorgaleria:active {
   z-index: 1;
   transform: scale(2);
@@ -434,41 +474,46 @@ body p {
   transition: 250ms;
   transform: scale(1);
 }
+
 .contenedorgalerial:hover {
   z-index: 1;
   transition: 250ms;
   transform: scale(1.1);
 }
+
 .contenedorgalerial:active {
   z-index: 1;
   transform: scale(2);
 }
+
 @media screen and (max-width: 992px) {
   .contenedorgalerial:active {
     z-index: 1;
     transform: translate(45%) scale(2);
   }
 }
-
 .contenedorgaleriar {
   cursor: cell;
   transition: 250ms;
   transform: scale(1);
 }
+
 .contenedorgaleriar:hover {
   z-index: 1;
   transition: 250ms;
   transform: scale(1.1);
 }
+
 .contenedorgaleriar:active {
   z-index: 1;
   transform: scale(2);
 }
+
 @media screen and (max-width: 992px) {
   .contenedorgaleriar:active {
     z-index: 1;
     transform: translate(-45%) scale(2);
   }
-}
+} 
 
 /*# sourceMappingURL=estilos.css.map */

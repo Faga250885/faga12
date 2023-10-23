@@ -26,3 +26,14 @@ body{
         scale: 1.1;
     }
 }
+
+.foot1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.error {
+    margin-top: 150px;
+    mix-blend-mode: multiply;
+}
