@@ -57,6 +57,14 @@ body{
     animation: slide-in1 2s forwards;
 }
 
+@media screen and (max-width: 992px) {
+    .animated-image {
+        transform: translate(0, -50%);
+        height: 300px;
+    }
+}
+
+
 @keyframes slide-in1 {
     to {
         left: 0;
@@ -96,9 +104,16 @@ body{
     width: 100%;
     right: -50%;
     top: 50%;
-    transform: translate(0, -50%);
     opacity: 0%;
+    transform: translate(0, -50%);
     animation: slide-in3 2s forwards;
+}
+
+@media screen and (max-width: 992px) {
+    .animated-image2 {
+        transform: translate(0, 0%);
+        height: 300px;
+    }
 }
 
 @keyframes slide-in3 {
